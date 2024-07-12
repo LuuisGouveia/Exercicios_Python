@@ -21,8 +21,8 @@ media = soma / count
 
 percentual = menores * 100 / count
 
-print(f"Altura Media = {media}")
-print(f"Percentual de pessoas com menos de 16 anos = {percentual}")
+print(f"Altura Media = {media:.2f}")
+print(f"Percentual de pessoas com menos de 16 anos = {percentual:.2f}%")
 
 for i in range(n):
     if idade[i] < 16:
